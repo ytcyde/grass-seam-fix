@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "grassseamfix",
+  "version": "${version}",
+  "name": "Grass Seam Fix",
+  "description": "Removes the light lines along the grass/dirt edges of grass block sides.",
+  "authors": [],
+  "license": "MIT",
+  "icon": "assets/grassseamfix/icon.png",
+  "environment": "client",
+  "mixins": [
+    "grassseamfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "${minecraft_dependency}",
+    "java": ">=${java_version}"
+  }
+}
